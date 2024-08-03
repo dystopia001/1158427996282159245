@@ -20,7 +20,7 @@ set /p "userCode=Enter your license: "
 cls
 
 rem Define the target HWID
-set "targetHWID=B18998B8-CAEA-601B-A0BD-047C16CBD761"
+set "targetHWID=F3EA6600-4BBA-11EF-9A88-9983E7E53A01"
 
 rem Get the current user's HWID
 for /f "tokens=2 delims==" %%A in ('wmic csproduct get uuid /value') do set "currentHWID=%%A"
